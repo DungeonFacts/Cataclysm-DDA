@@ -285,7 +285,7 @@
     "type": "ITEM",
     "id": "wood_beam",
     "name": { "str": "heavy wooden beam" },
-    "description": "An enormous beam of solid wood, very heavy and hard to lug around, but also very sturdy for construction.  You could saw or chop it into smaller pieces, like planks or panels.",
+    "description": "An enormous beam of solid wood, very heavy and hard to lug around, but also very sturdy for construction.  You could saw or split it into planks.",
     "category": "spare_parts",
     "weight": "48861 g",
     "volume": "82743 ml",
