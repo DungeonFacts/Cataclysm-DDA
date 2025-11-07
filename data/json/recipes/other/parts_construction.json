@@ -75,7 +75,7 @@
     "activity_level": "LIGHT_EXERCISE",
     "result": "wood_beam",
     "id_suffix": "with_jointer",
-    "//": The previous planer recipe was nonsense, and using a jointer is still glossing over some prep, but this is close enough.",
+    "//": "The previous planer recipe was nonsense, and using a jointer is still glossing over some prep, but this is close enough.",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
