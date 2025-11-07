@@ -40,7 +40,7 @@
     "type": "recipe",
     "activity_level": "BRISK_EXERCISE",
     "result": "wood_beam",
-    "id_suffix": "from logs",
+    "id_suffix": "from rough timber",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
@@ -50,7 +50,8 @@
     "byproducts": [ [ "splinter", 20 ] ],
     "qualities": [ { "id": "AXE", "level": 2 } ],
     "//": "Eventually, smoothing tools should also be required, or we should distinguish between rough-hewn and finished beams",
-    "components": [ [ [ "log", 2 ] ] ]
+    "//": "Addendum: recipe modified to represent hand-hewn beam, not sure we need to differentiate for our purposes. We don't have rough and smooth planks, for example.",
+    "components": [ [ [ "rough_timber", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -73,7 +74,8 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "wood_beam",
-    "id_suffix": "with_planer",
+    "id_suffix": "with_jointer",
+    "//": The previous planer recipe was nonsense, and using a jointer is still glossing over some prep, but this is close enough.",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
@@ -81,24 +83,8 @@
     "time": "10 m",
     "autolearn": true,
     "byproducts": [ [ "splinter", 20 ] ],
-    "tools": [ [ [ "planer_tool", 250 ] ] ],
-    "components": [ [ [ "log", 2 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
-    "result": "wood_panel",
-    "id_suffix": "from wooden beams",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "time": "2 h",
-    "autolearn": true,
-    "result_mult": 4,
-    "byproducts": [ [ "splinter", 7 ] ],
-    "qualities": [ { "id": "SAW_W", "level": 2 } ],
-    "components": [ [ [ "wood_beam", 1 ] ] ],
-    "//": "I am assuming here that you actually get more than 4 smaller-than-represented wood panels, but any application that requires panels means you'll be putting these side by side to get the effect of a single panel."
+    "tools": [ [ [ "jointer_tool", 250 ] ] ],
+    "components": [ [ [ "rough_timber", 1 ] ] ]
   },
   {
     "type": "recipe",
